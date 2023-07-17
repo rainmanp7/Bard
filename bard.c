@@ -9,6 +9,11 @@
 // I decided to make this for the world to use.
 // One day hopefully Free BSD and Net BSD will consider it.
 
+#include <linux/module.h> 
+#include <linux/kernel.h> 
+#include <linux/init.h> 
+#include <linux/net.h> 
+#include <linux/skbuff.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -100,3 +105,32 @@ congestion_control(congestion_window_size,
 //printf("The new congestion window size is %f\n", new_congestion_window);
 return 0;
 }
+
+/*
+* This function is called when the system boots up.
+* It registers the Bard congestion control program with the kernel.
+*/
+static int __init bard_congestion_control_init(void) {
+int ret;
+ret = register_congestion_control("bard");
+if (ret < 0) {
+printk(KERN_ERR "Failed to register Bard congestion control");
+return ret;
+}
+printk(KERN_INFO "Bard congestion control registered");
+return 0;
+}
+/*
+* This function is called when the system shuts down.
+* It unregisters the Bard congestion control program with the kernel.
+*/
+static void __exit bard_congestion_control_exit(void) {
+unregister_congestion_control("bard");
+printk(KERN_INFO "Bard congestion control unregistered");
+}
+module_init(bard_congestion_control_init);
+module_exit(bard_congestion_control_exit);
+MODULE_AUTHOR("Christopher W. Brown, Google Bard");
+MODULE_LICENSE("GPL 3");
+MODULE_DESCRIPTION("GOOGLE BARD");
+MODULE_VERSION("1.0");
