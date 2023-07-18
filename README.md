@@ -13,9 +13,9 @@ This is Google Bards first complete C programming congestion
 contorl program written and functional. Any programmer can use this
 code to write there own program or module. I want to see this on
 the Android App possibly using a vpn switch ,but it should be ingrained
-in the operating system it's self. It's currently viable for testing
+in the operating system it's self. It's currently ready for testing
 as a Linux kernal module. it's gone through heavy simulator
-testint and is ready now for real world testing.
+testing and is ready now for real world testing.
 
 This is in it's Alpha/Beta Stages now.
 
