@@ -1,6 +1,7 @@
 # Bard
 bard congestion control for networking and internet.
-Twitter @BardCongestion
+
+##Twitter @BardCongestion
 
 Myself and a few Artificial intelligence helped me code check
 Google Bard helped me create and write this code
