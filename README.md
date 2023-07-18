@@ -10,4 +10,10 @@ worked hard to make this possible.
 
 This is a congestion control program for thr Linux kernal
 This is Google Bards first complete C programming congestion
-contorl program written and functional.
+contorl program written and functional. Any programmer can use this
+code ro write there own program or module. I want to see this on
+the Android App possibly using a vpn switch ,but it should be ingrained
+in the operating system it's self. It's currently viable for testing
+as a Linux kernal module. it's gone through heavy simulator
+testint and is ready now for real world testing.
+
