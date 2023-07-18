@@ -1,6 +1,6 @@
 # Bard.
 ```bash
-bard congestion control.
+bard congestion control program.
 ```
 ## Information / Social
 ```bash
@@ -10,7 +10,7 @@ Twitter @BardCongestion
 ## Usage.
 ```bash
 The c code can be used as a Linux module stand alone.
-The other code is for reference and useable.
+The other code is a ready reference and useable.
 ````
 ## Contributing.
 ```bash
@@ -21,7 +21,7 @@ worked hard to make this possible.
 ````
 ## Background Understanding.
 ```bash
-This is a congestion control program for the Linux kernal
+This is a congestion control program Linux kernal module.
 This is Google Bards first complete C programming congestion
 contorl program written and functional. Any programmer can use this
 code to write there own program or module. I want to see this on
