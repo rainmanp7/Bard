@@ -20,7 +20,7 @@ There were many hours and days myself and Google Bard
 worked hard to make this possible.
 ````
 ## Background Understanding.
-```bash
+```
 This is a congestion control program Linux kernal module.
 This is Google Bards first complete C programming congestion
 contorl program written and functional. Any programmer can use this
@@ -31,10 +31,10 @@ as a Linux kernal module. it's gone through heavy simulator
 testing and is ready now for real world testing.
 ````
 ## Current Status.
-```bash
+```
 This is in it's Alpha/Beta Stages now.
 ````
 ## License
-```bash
+```
 GPL3
 ````
