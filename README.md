@@ -1,7 +1,8 @@
 # Bard.
 ```bash
-bard congestion control for networking and internet.
+bard congestion control.
 ```
+## Information / Social
 ### Twitter @BardCongestion
 
 ## Usage.
